@@ -31,7 +31,7 @@ if not file_name == "":
 
 """plotting the DOS"""
 fig, axs = plt.subplots(1)
-axs.plot(E, DOS)
+axs.plot(E, DOS, linewidth=2.5)
 axs.set_xlabel("Energy")
 axs.set_ylabel("DOS")
 axs.grid()
