@@ -57,7 +57,7 @@ for idx, val in enumerate(beta):
 fig, axs = plt.subplots(1)
 axs.plot(beta, beta * band_edge_values, ".", linewidth=2)
 axs.set_xlabel(r"$\beta$")
-axs.set_ylabel(r"DOS at band edge * $\beta$")
+axs.set_ylabel(r"DOS at band edge * $\beta$ * $a^2$")
 axs.grid()
 fig.tight_layout()
 
